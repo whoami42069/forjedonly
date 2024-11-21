@@ -1,0 +1,65 @@
+
+Block #302581038 high-value transactions:
+Transaction: 8cZbBNdbtDxJWP6sAa91GakQJxCNqrgGyP2p7Th2k9HjdnkhPkFy335Vr7GSnR2kDevDd8gPWRLU5FsgCaRjyw4 - Value: 219.27 SOL
+Transaction: 3ga5Jso7GSxiu5mXiWVSkSXEtsnrH5tRfbYRQugPPnbKoKASGjTyrY5VgaFjpUPKom8S2ccXzZqbH1cLUwxiU42v - Value: 19.21 SOL
+Transaction: 4mKkHmYNq26yXMxv24qfXxxHhoHzJcTrEFP88AQYMZhMcpRUfzjZjF7C54xWZYwtC4WCgsQsvtT48zggDbZj9ZhY - Value: 22.59 SOL
+Transaction: 5ARaeD1u2Ryzg1fZEb6yEjKQCZ6XcitDrP7ns4LPnz6duTqJyA2umSMkBBi4sRBXgb781dTYcuPZE9qL8gvvDppu - Value: 26.30 SOL
+Transaction: 45za6MGnRaVQNs9hyoJ6h42VkfGnab1rTEpUoueZYyoJpSrYF2wUZavZwmBN85YHnekrrAgFsraAbSyQWKX4T3fe - Value: 11.02 SOL
+
+Block #302581037 high-value transactions:
+Transaction: 2oX9xcTw3dx11T37xEFVehHGfdWfRo7e2Ex1HySBnLigvE6CcAiwGV6MzGn3D7rr2SeEi647aqfW6RuS8yvnq1hC - Value: 21.50 SOL
+Transaction: 9vG3vDQ35fn5w3G8hMoQ1638UoSx1wQJ5UB2zGiHgTefJGfgUrfo9z3ijZKtaAE3qSKk6pLerKJmn7EzNQYqV7g - Value: 11.32 SOL
+Transaction: 5MKpoU2GVRGUb9eUh5xE1Wgsd8FgQkbGetbCasgGMndxRTz4xSjTu51hpnwkJpwpk8khz5RfGaCNGqqVJo1QMyCT - Value: 12.91 SOL
+Transaction: qJjcQxy9vXNThVeUgCEiAauZEmahrNtnTH6S2AC2syD2HfryfmVVqwByc3fcF6aNNbguqkvSRiFSzcPa4K1JCrw - Value: 41.00 SOL
+Transaction: 2mLW7nzTegh7CiH3YnxeTrD67VWeA1dNJP3bDpMCNvkgYJpgEscPEYQnWyNHh7s9pcjDcKpS9xUizrvrCNEaWWwz - Value: 42.75 SOL
+Transaction: 4EEhK3AsVLTUrCPVWCd2ZRJYicsSzs2kou1zeTdnaeWzCC2jxdLfCv3HWhzU3KGxxu4ZxynjpG9MjBDqVRBSfJgA - Value: 40.00 SOL
+
+Block #302581036 high-value transactions:
+Transaction: 3GcwuHak8VNr4tHf5gFjrCtJeZsvk4GxuD6s2zZK5Fqix9BNtnxmetvuBx434CvsQ78Tk4UsHMzLxyo86hPwPmyW - Value: 29.15 SOL
+Transaction: 2d6L8iLmYbyFzMgAMBCSYEgrek1NuqS3womkWgsoFqdXcHastCMUsd3JCyDkzmNtYjxRSX2swja39HMav2A5vRfX - Value: 15.15 SOL
+Transaction: GoSNJfmqpfmZfSwe8GhjT8M5ukW2H4V8eToMCqtcSBKJV84dSwTWwsNftcWB2htqJew9UYRURM4i7ZYrHs2oHbG - Value: 15.00 SOL
+
+Block #302581035 high-value transactions:
+Transaction: 5miLgdQwh37d4Z6NxkA7tCd3LUovYPwKLN8sASnXPGuwRjcQHVpuiV3gEbSBfgijkhMd53fFBBem21Cug5JKk2qA - Value: 29.89 SOL
+
+Block #302581034 high-value transactions:
+Transaction: HGamhYF7FLNEBJuPodGdXrXJs6fuqWpZywWvDPo1VDSJm76sVcfYgkjcwyPnVTqirtSzqbiy1PxLkW2nbeVLj6j - Value: 18.32 SOL
+Transaction: 27wQmHrAhHiwRDk1BuwoanaxR97X1P56QNY9Px2jarcccv6o9TGds5iusncPWCbxGLpTBWeQbGUraN4zRiQUHZD7 - Value: 14.15 SOL
+Transaction: 2YSCGHoBQ5gZFt5MUzZ2gp3YfmE3HoNZfpMsDuvVkTgQncermkWsuWjDhaBnaz4hbNrXG5ZNb5znQTbNgP5B64xz - Value: 13.42 SOL
+Transaction: 2FxNrZb2bo1WjfSzG3CWotEpTuL7p528pbvs1m7dLokojvMy23ub3ot9ck8pCbqbn2LqK9G77nSfa9CotPMmKbAb - Value: 29.37 SOL
+
+Block #302581032 high-value transactions:
+Transaction: 3EWP6Sjf39Gcq288zx2h68N4UiGu2PqeZ4GhFLZGJa3zWGzy4yjwnCWbHFKfA6PcVDpvD8ZzMiqboXfSDUg6NDMU - Value: 10.00 SOL
+Transaction: 3heHK62NyEcnh5gAJf1DrwR3xubJN1Zn4fovHa8u5bZpaDcuaXPyBJXR5puGT489q6PaJGiMxip9JK1Db2wncfG3 - Value: 47.46 SOL
+Transaction: 2iUpsmbAWD5y8zdu4RvNPXYyeTRkwBV6HNpmpafV1bRYkDbGugT3RGUVdKRUNtHR7cnSQChgdgBdEtCJGM4qmiA1 - Value: 51.18 SOL
+Transaction: t8punY6PVZgbvodwH2i4ezcfGGidQU2Vq6yUKE6yJGEbA3au2hkVoh34seRQZUjvVC4YftkcLokSudN1Ssrpd1L - Value: 51.10 SOL
+Transaction: 4C4iRXBW6wSNbTcWstgd9hw72PyRXpAWMZSVnYHttUDJ62kfzbnHjfMKBfXCYQENWuxshjLsW1sV9B1EEFoWdP8n - Value: 51.10 SOL
+Transaction: 2JWyWMWPJqRKfyhRKhp7yL4mPopnGLtJRAsbvukBLHd44NjP8hMD5pBSXjoSavC6eNfN4he7dEKuZG3h6kZwHW4b - Value: 42.00 SOL
+Transaction: 3TpigyLJVjVhk5ikcvQWdYb85EWQFaa6d1SCt2jcP7vuei59ygm5PRbRA9D9BBNCqK7Gg1ezrZ4wdCRiWwbmLTwd - Value: 10.05 SOL
+
+Block #302581031 high-value transactions:
+Transaction: 3Q97Di3nWE9fGa9ju8Nu6phFyMBd62FRC9vie3rigD86fGMZ6Qna7Z3ZuJj9NfkX5vsnZMfZgTGJtLekXbyTPQFQ - Value: 10.05 SOL
+Transaction: 5c91RYfYk9A8tuLoGafhPH74Jdi9mesENXsMp19gBwCUpCKBgnasXJMop8Y4DqBBM682oAMeHopuwTYYz2VdxVXq - Value: 42.99 SOL
+
+Block #302581030 high-value transactions:
+Transaction: 5j4CxTA3kDZvvVEE23NNAmB9ysTCnCeD9N1VZKEQcJkGjhtacV3PKJqRFvEYtz1KKVf3kp4Ewh13SdrNrBe8ZYYQ - Value: 13.75 SOL
+Transaction: 2Kvx843rGsdXA97Z5QUqgmHbxnDuVP4sZaVZoqkTW2Bv5eN1CLG21ptkgWgRgAtTU5xNr6axMQ2Y5PU8KruJbN9j - Value: 58.26 SOL
+Transaction: 5dmH8TPioQotn9hi9WW1HZzG9vnVi1UPLA2su8pJEqYZA49vE3KmaPdobDdWSiJcnwTWAoCTQMJ7CD81wkdAqQ7W - Value: 25.00 SOL
+
+Block #302581029 high-value transactions:
+Transaction: 4QogxWur4Cruh6wVpRz63haNwVKafznVf6xU2RWQMEqgx7C1E4yrzZec4qpkhgs7eB3DJDL8itN4B3Bfi7nwxy1C - Value: 11.12 SOL
+Transaction: VJz7NkfjuPjbNBWDGKr1SFAkXTjFAwRSGpHj5aLVyKyqebDRbsyFhRViznwbt2CPnsoGRBVSiAQNrjYPGLAa5Pk - Value: 180.01 SOL
+Transaction: 2d6mej8XKVtDUbJc9GvPvke4pDqcBPaVD7FTQV8eAjLSSMPeHcM4HHWQo7cSA4nWrCi4X22d4YKJWWPtsTj1sseF - Value: 807.45 SOL
+Transaction: 24gzu2urDPRSAWX9WLzotCR8wfNW6W2SZrVoczArPT4smHAJ6dUcCFMgCU5fTUDybX9nZ3rxmrnjUtAwjNhZnvKs - Value: 70.00 SOL
+Transaction: 3q3LvxSdV3GJqjS4jNXZQPEurC4rYWa13PxCQbzFinAzoGaqxHbAy2QKPMgyHUmUfY34ESgNCvng4n1WwBwavUak - Value: 110.00 SOL
+Transaction: 2KboFpZh76LdmLw7LUjrb6dpWZcv8tn4hpCcrkMg7Ri8N8biEB6siRR2j2XJNTtHWK624onVAwF1V7Dp8VjbG6qy - Value: 29.66 SOL
+Transaction: rKXCcig2VneLRbSqDcQitHLoqsUqJK3ArEAeFPmK169PhL81UuugjD8GPvLw6W5GXXFYC3HBVQEa5JSNJfBDWTJ - Value: 13.28 SOL
+Transaction: 3QQwvUAfH7KuRrVzyoQLFkZqM9Xxn6kqa1KfusRZMsqBMaUB6XrVT8wX4kVExVayiqnD2hmhuarJQGfaZFbDvWAd - Value: 23.70 SOL
+Transaction: HJ7mdGrp1TefSroE4LCMmAh55aEKEqZc8meKz4TnS9ZD1rVKraq3pQtSiNu5XQZQDHXzz5zoJrM2Yn4QaE36UR1 - Value: 13.28 SOL
+Transaction: 2ZdDjmyQN9CzuEjHmUWcuVBVKKen9fFpQMdtWuxzTg3wP91Xd1FoNnK3x1FyEb1xX2M1ve1Twk8ygqvhcEJhPY78 - Value: 12.13 SOL
+Transaction: 28fWq5PSdBmJs3vCAYR2AsWX23FCC2Kq7p3zwMymhts1hsGJuSv9AA2wsPCzdWuZ6xjXdhA9KwjrLJGVZJyWiyWX - Value: 10.02 SOL
+Transaction: UQYrekqcunxLAcC7zrH7TRobUw2yj65tMV1WBa3CCijbRRCkW4xrdJyPiMC7d9T4t2kSZVJ5tCrLq3LQ6wABEaL - Value: 38.85 SOL
+Transaction: 5rcxtxoFnzASVYpvtGipfw7dDgjAFZaQEXzyB9GUuVT2hrZcXvm9MRdjekH1DX8bYmuZgcwVTg6FEAY2Vuf6dZbb - Value: 10.09 SOL
+Transaction: sgqbs1q1CGGCaxUM5z68SQL7j2YqrqiDutUwkkWwcAvBeyim8E5H4AmDRd5eDJufP1W36KJnuRCu1nqXrpBoDqD - Value: 40.01 SOL
+Transaction: 5f8pPdWccFdSeJrjdxaV1Vtb6LPMJzLKUpyYY8dj8MYot168b4EqK26G3k8MhuUcHS9usHPju49MPL3YN8RcQ9yh - Value: 21.43 SOL
+Transaction: 65u567jj4pB1kuP6sec1n7bWTor5zxbHuP8r1T5FoCU1qMwqeDSMHmYNHhnY8vB6gNKuKyXMo2iRSPadc2Uwp7pn - Value: 13.80 SOL

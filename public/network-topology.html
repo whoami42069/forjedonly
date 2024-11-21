@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Network Topology</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .node:hover {
+            cursor: pointer;
+        }
+        .tooltip {
+            position: absolute;
+            padding: 8px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            pointer-events: none;
+            font-size: 12px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <div class="flex justify-between items-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-800">Network Topology</h1>
+            <div class="space-x-4">
+                <a href="/ip-data.html" class="text-blue-600 hover:text-blue-800">IP Data Analysis</a>
+                <a href="/" class="text-blue-600 hover:text-blue-800">← Back to Dashboard</a>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="bg-white p-6 rounded-lg shadow-lg mb-8">
+            <div class="flex items-center gap-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">Clustering Method</label>
+                    <select id="clusterMethod" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
+                        <option value="subnet">Subnet (/24)</option>
+                        <option value="provider">Cloud Provider</option>
+                        <option value="region">Geographic Region</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">Minimum Cluster Size</label>
+                    <input type="number" id="minClusterSize" value="3" min="1" max="50" 
+                           class="mt-1 block w-32 rounded-md border-gray-300 shadow-sm">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">Bubble Scale</label>
+                    <input type="range" id="bubbleScale" min="0.5" max="2" step="0.1" value="1"
+                           class="mt-1 block w-48">
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Visualization -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Bubble Map -->
+            <div class="col-span-2 bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-4">Network Cluster Visualization</h2>
+                <div id="bubble-container" style="height: 600px; background: #fafafa;"></div>
+            </div>
+
+            <!-- Cluster Statistics -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-4">Cluster Statistics</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-900">Summary</h3>
+                        <dl class="mt-2 grid grid-cols-2 gap-4">
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Total Clusters</dt>
+                                <dd id="totalClusters" class="text-2xl font-semibold text-gray-900">-</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Avg. Cluster Size</dt>
+                                <dd id="avgClusterSize" class="text-2xl font-semibold text-gray-900">-</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Largest Cluster</dt>
+                                <dd id="largestCluster" class="text-2xl font-semibold text-gray-900">-</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Isolated Nodes</dt>
+                                <dd id="isolatedNodes" class="text-2xl font-semibold text-gray-900">-</dd>
+                            </div>
+                        </dl>
+                    </div>
+
+                    <!-- Top Clusters Table -->
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Top Clusters</h3>
+                        <div class="overflow-auto max-h-[400px]">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50 sticky top-0">
+                                    <tr>
+                                        <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase">Identifier</th>
+                                        <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase">Size</th>
+                                        <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase">Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="clusterTable" class="divide-y divide-gray-200">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/network-topology.js"></script>
+</body>
+</html>

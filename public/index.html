@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Network Monitor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet">
+    <link href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" rel="stylesheet">
+    <link href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <div class="flex justify-between items-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-800">Solana Network Monitor</h1>
+            <div class="space-x-4">
+                <a href="/network-topology.html" class="text-blue-600 hover:text-blue-800">Network Topology</a>
+                <a href="/ip-data.html" class="text-blue-600 hover:text-blue-800">IP Data Analysis</a>
+            </div>
+        </div>
+        
+        <!-- Rest of the dashboard HTML remains exactly the same -->
+        <!-- Summary Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold text-gray-600">Total Unique IPs</h2>
+                <p id="totalIPs" class="text-3xl font-bold text-blue-600">-</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold text-gray-600">Active Snapshots</h2>
+                <p id="totalSnapshots" class="text-3xl font-bold text-green-600">-</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold text-gray-600">High-Value Txs</h2>
+                <p id="highValueTxs" class="text-3xl font-bold text-purple-600">-</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold text-gray-600">Total Volume (SOL)</h2>
+                <p id="totalVolume" class="text-3xl font-bold text-orange-600">-</p>
+            </div>
+        </div>
+
+        <!-- Main Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Geographic Distribution -->
+            <div class="bg-white p-6 rounded-lg shadow-lg col-span-2">
+                <h2 class="text-2xl font-semibold mb-4">Geographic Distribution</h2>
+                <div id="geoMap" style="height: 400px;"></div>
+            </div>
+
+            <!-- ISP Distribution -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-4">Top ISPs</h2>
+                <canvas id="ispChart"></canvas>
+            </div>
+
+            <!-- Country Distribution -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-4">Country Distribution</h2>
+                <canvas id="countryChart"></canvas>
+            </div>
+
+            <!-- Network Statistics -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-4">Network Statistics</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <p class="text-gray-600">Minimum Nodes</p>
+                        <p id="minNodes" class="text-2xl font-bold">-</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-600">Maximum Nodes</p>
+                        <p id="maxNodes" class="text-2xl font-bold">-</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-600">Mean</p>
+                        <p id="meanNodes" class="text-2xl font-bold">-</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-600">Median</p>
+                        <p id="medianNodes" class="text-2xl font-bold">-</p>
+                    </div>
+                    <div class="col-span-2">
+                        <p class="text-gray-600">Standard Deviation</p>
+                        <p id="stdDevNodes" class="text-2xl font-bold">-</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- High-Value Transactions -->
+            <div class="bg-white p-6 rounded-lg shadow-lg col-span-2">
+                <h2 class="text-2xl font-semibold mb-4">Recent High-Value Transactions (>100 SOL)</h2>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-gray-50">
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Block</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Transaction</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amount (SOL)</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Time</th>
+                            </tr>
+                        </thead>
+                        <tbody id="txTable" class="bg-white divide-y divide-gray-200">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/dashboard.js"></script>
+</body>
+</html>

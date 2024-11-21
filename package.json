@@ -1,0 +1,30 @@
+{
+  "name": "solana-monitor",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "collect": "node collect-ips.js",
+    "dev": "node server.js",
+    "postinstall": "node postinstall.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "express": "^4.18.2",
+    "ws": "^8.16.0",
+    "d3": "^7.8.5",
+    "chart.js": "^4.4.1",
+    "geoip-lite": "^1.4.9",
+    "node-fetch": "^3.3.2",
+    "ip-cidr": "^3.1.0",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "cors": "^2.8.5",
+    "compression": "^1.7.4",
+    "netmask": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

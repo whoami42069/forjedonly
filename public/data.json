@@ -1,0 +1,35 @@
+{
+  "providers": {
+    "AWS": 10,
+    "Digital Ocean": 5,
+    "Google Cloud": 8,
+    "OVH": 3,
+    "Hetzner": 4,
+    "Linode": 2,
+    "Other": 15
+  },
+  "isps": {
+    "Amazon.com": 10,
+    "Google LLC": 8,
+    "Digital Ocean": 5,
+    "OVH SAS": 3,
+    "Hetzner Online GmbH": 4,
+    "Linode LLC": 2,
+    "Other": 15
+  },
+  "trends": [
+    {"snapshot": 1, "count": 25},
+    {"snapshot": 2, "count": 30},
+    {"snapshot": 3, "count": 35},
+    {"snapshot": 4, "count": 40},
+    {"snapshot": 5, "count": 47}
+  ],
+  "bubbleMap": [
+    {"id": 0, "prefix": "52.0", "value": 10, "ips": []},
+    {"id": 1, "prefix": "35.0", "value": 8, "ips": []},
+    {"id": 2, "prefix": "64.0", "value": 5, "ips": []},
+    {"id": 3, "prefix": "51.0", "value": 3, "ips": []}
+  ],
+  "totalIPs": 47,
+  "totalSnapshots": 5
+}
